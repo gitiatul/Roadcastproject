@@ -26,9 +26,8 @@ function AboutMe(){
             </div>
           </nav>
           </div>
-          <div className="col-md-2">
-          <input type="button" id="submit" 
-            onclick ="msg()" value="Edit" /> 
+          <div className="col-md-2 aboutbutton">
+          <a href="/Login"><button type="button" class="btn btn-secondary btn-sm homebutton">Edit</button></a>
           </div>
         </div>
         <div className="row">

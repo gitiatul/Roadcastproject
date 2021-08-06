@@ -53,7 +53,6 @@ font-weight:bold;
 }
 
 .homebutton{
- padding: 100px;
  margin:5px;
 }
 
@@ -213,6 +212,7 @@ padding-top: 40px;
   background-color: whitesmoke;
   padding-top: 60px;
   padding-bottom: 60px;
+  padding-right: 10px;
   margin-bottom: 20px;
 }
 
@@ -222,29 +222,20 @@ padding-top: 40px;
   padding-bottom: 50px;
 }
 
-.menu ul {
-  list-style-type: none;
-  font-size: 50px;
-
+.client a{
+  text-align: center;
+  color: burlywood;
+  font-size: 20px;
+  padding-top:10px;
+  text-decoration: none;
+  list-style-type:none;
 }
-
+ 
 .userdetails{
   text-align: center;
   padding: 5px;
 }
 
-
-
-
-
-.menu a{
-  text-align: center;
-  color: burlywood;
-  font-size: 20px;
-  padding-top: 20px;
-  text-decoration: none;
-  list-style-type:none;
-}
 
 
 .client a:hover{
@@ -310,4 +301,8 @@ padding-top: 40px;
 .aboutinfo{
   text-align: center;
   padding: 10px;
+}
+
+.aboutbutton{
+  text-align: center;
 }

@@ -2,11 +2,12 @@ import React from 'react';
 
 
 function Home(){
+   // eslint-disable-next-line
   return(
     <div>
       
     <div className="container">
-  <div className="row  bodyrow">
+  <div className="row">
     <div className="col  col-sm-12 col-md-8 ">
     <div className="homepage">
     <h1>Experience the power of real-time tracking & monitoring</h1>
@@ -51,13 +52,13 @@ function Home(){
           <ul className="menu">
           <a href="/#"><li>TATA hitachi</li></a>
          <a href="/#"><li>Peak</li></a>
-         <a href="/#"><li>Lets Transport</li></a>
+         <a href="/#"><li>Amazon</li></a>
           </ul>
        </div>
        <div className="col col-md-4">
             <ul className="menu">
             <a href="/#"><li>Toyota</li></a>
-         <a href="/#"><li>DELHI POLICE</li></a>
+         <a href="/#"><li>Police</li></a>
          <a href="/#"><li>Adobe</li></a>
             </ul>
        </div>
