@@ -1,0 +1,313 @@
+html,
+body {
+  height: 100%;
+}
+
+.heading {
+  text-align: center;
+}
+.headingnav{
+background-color: #c2d6d6;
+margin-top: 1px;
+font-weight:bold;
+}
+
+.headlinks{
+  font-size: 20px;
+  margin-left: 107px;
+  margin-top: 10px;
+  margin-bottom: 10px;
+}
+
+.homepage{
+  background-color: #c2d6d6;
+  line-height: 50px;
+  text-align: center;
+  padding: 100px;
+
+}
+
+.rightside{
+  margin-top: 10px;
+  background-color: #f8f9fa;
+  font-family: 'Roboto', sans-serif;
+}
+
+.rightside a{
+  font-size: 20px;
+  color: black;
+  list-style-type:none;
+  text-decoration: none;
+}
+
+.rightside a:hover{
+  color:burlywood;
+  list-style-type:none;
+  text-decoration: none;
+}
+
+.rightside li{  
+  text-align: center;
+  font-size: 25px;
+  margin: 70px;
+}
+
+.homebutton{
+ padding: 100px;
+ margin:5px;
+}
+
+.footer{
+  position: relative;
+   bottom: 0;
+   width: 100%;
+   background-color:cadetblue;
+   color: white;
+   text-align: center;
+   padding: 5px;
+}
+
+
+.description{
+  text-align: center;
+  margin-top: 20px;
+  background-color: #f8f9fa;
+  padding: 70px;
+
+}
+
+.description h1{
+  font-size: 35px;
+}
+
+.description p{
+  font-size: 20px;
+  font-weight:bold;
+  padding-top: 50px;
+  padding-left: 70px;
+  padding-right: 70px;
+  padding-bottom: 5px;
+}
+
+.description span{
+  text-align: center;
+  font-size: 17px;;
+  padding-top: 20px;
+  padding-left: 20px;
+  padding-bottom: 30px;
+}
+
+.topic{
+  text-align: center;
+  margin-top: 20px;
+  background-color: #c2d6d6;
+}
+
+.topic h1{
+ padding: 10px;
+ font-size: 25px;
+}
+
+.topic p{
+  padding-top: 30px;
+  padding-left: 70px;
+  padding-right: 70px;
+  padding-bottom: 5px;
+}
+
+.inputform{
+  padding-bottom: 10px;
+  padding-top: 10px;
+}
+
+.inputformcontact{
+  width: 100%;
+  max-width: 100000px;
+  
+  padding: 15px;
+  margin: 0 auto;
+}
+
+.form1{
+  padding-top: 60px;
+}
+
+.form-signin {
+  width: 100%;
+  max-width: 350px;
+  
+  padding: 15px;
+  margin: 0 auto;
+}
+
+.form-signin .form-control {
+  position: relative;
+  box-sizing: border-box;
+  height: auto;
+  padding: 10px;
+  font-size: 16px;
+}
+
+.getintouch {
+  text-align: center;
+padding-top: 90px;
+}
+
+.textarea{
+padding-top: 40px;
+}
+
+.searchbar{
+ margin-left: 100px;
+}
+
+
+.bgtext{
+  left: 0;
+  line-height: 50px;
+  margin-top: -100px;
+  position: absolute;
+  text-align: center;
+  top: 50%;
+  width: 100%;
+}
+.bgtext:after {
+  content: "404";
+  color: rgb(232,232,232);
+  left: 0;
+  line-height: 1px;
+  font-size: 150px;
+  letter-spacing: 10px;
+  font-weight: normal;
+  margin-top: -100px;
+  position: absolute;
+  text-align: center;
+  width: 100%;
+  z-index: -1;
+}
+
+.aboutcontainer {
+    height: 10px;
+    width: 10px;
+    padding-top:100px;
+    padding-left: 1000px;
+
+}
+
+.aboutimg{
+  display: block;
+  padding-bottom: 15px;
+  margin-left: auto;
+  margin-right: auto;
+  width: 50%;
+}
+
+.aboutlinks{
+  text-align: center;
+  padding-top: 50px;
+}
+
+
+.client{
+  margin-top: 20px;
+  background-color: whitesmoke;
+  padding-top: 60px;
+  padding-bottom: 60px;
+  margin-bottom: 20px;
+}
+
+.client h1{
+  text-align: center;
+  font-size: 26px;
+  padding-bottom: 50px;
+}
+
+.menu ul {
+  list-style-type: none;
+  font-size: 50px;
+
+}
+
+.userdetails{
+  text-align: center;
+  padding: 5px;
+}
+
+
+
+
+
+.menu a{
+  text-align: center;
+  color: burlywood;
+  font-size: 20px;
+  padding-top: 20px;
+  text-decoration: none;
+  list-style-type:none;
+}
+
+
+.client a:hover{
+  color:black;
+ 
+  text-decoration: none;
+}
+
+
+.SEO {
+  background-color: darkgray;
+  padding: 50px;
+}
+.SEO h1{
+  text-align: left;
+  font-size: 25px;
+}
+.SEO p{
+  padding-top: 30px;
+  font-weight: lighter;
+  font-size: 20px;
+}
+
+.SEO a{
+  padding-top: 100px;
+
+}
+
+.SEO li{
+  padding-top: 10px;
+  font-weight: lighter;
+  list-style-type:none;
+  text-decoration: none;
+}
+
+.technology {
+  margin-top: 20px;
+  background-color: wheat;
+  padding:50px;
+}
+
+.technology h1{
+   font-size: 25px;
+}
+.technology p{
+  padding-top: 20px;
+}
+
+
+.review {
+  margin-top: 20px;
+  background-color :oldlace;
+  padding:50px;
+}
+
+.review h1{
+   font-size: 25px;
+}
+.review p{
+  padding-top: 20px;
+}
+
+.aboutinfo{
+  text-align: center;
+  padding: 10px;
+}
